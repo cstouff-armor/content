@@ -220,13 +220,13 @@ script:
           * FilteredAsSpam: The message was marked as spam.
       auto: PREDEFINED
       predefined:
-        - "GettingStatus"
-        - "Failed"
-        - "Pending"
-        - "Delivered"
-        - "Expanded"
-        - "Quarantined"
-        - "FilteredAsSpam"
+      - "GettingStatus"
+      - "Failed"
+      - "Pending"
+      - "Delivered"
+      - "Expanded"
+      - "Quarantined"
+      - "FilteredAsSpam"
     description: |
       Searches message data for the last 10 days. If you run this command without any arguments, only data from the last 48 hours is returned.
       If you enter a start date that is older than 10 days, you will receive an error and the command will return no results.
